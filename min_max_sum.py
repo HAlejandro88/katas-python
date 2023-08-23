@@ -13,7 +13,8 @@ def miniMaxSum(arr):
     min_value = min(sums)
     max_value = max(sums)
 
-    return sys.stdout.write(f'{min_value} {max_value}')
+    #return sys.stdout.write(f'{min_value} {max_value}')
+    return f'{min_value} {max_value}'
 
 
 

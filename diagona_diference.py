@@ -10,6 +10,7 @@ def diagonal_difference(arr):
     value_one = sum(diagonal_one)
     value_two = sum(diagonal_two)
 
+
     return abs(value_one - value_two)
 
 # Ejemplo de uso
